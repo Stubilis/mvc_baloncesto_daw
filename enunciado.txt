@@ -1,0 +1,64 @@
+Debes implementar, siguiendo el patrón MVC del microframework visto en clase, una aplicación web que 
+te permita gestionar la información de esta BD. 
+La funcionalidad de la aplicación será la siguiente:
+
+    Gestión de las zonas
+
+        CRUD de la tabla ZONAS
+        cod_zona
+        nombre_zona
+
+    Gestión de equipos
+
+        CRUD de la tabla EQUIPOS
+        cod_equipo
+        nombre_equipo
+        presupuesto
+        fecha_fundacion
+        zonas
+        titulos
+
+        La ZONA se elegirá con una lista desplegable que mostrará las distintas zonas
+         registradas en la tabla ZONAS
+
+    Gestión de jugadores
+
+        CRUD de la tabla JUGADORES ✅
+        cod_jugador
+        nombre_jugador
+        fecha_nacimiento
+        estatura
+        posicion
+        equipo fk
+
+
+        El equipo del jugador se elegirá de una lista desplegable con los distintos equipos.✅
+
+    Gestión de partidos
+
+        CRUD de la tabla PARTIDOS
+        cod_partido
+        fecha
+        cod_equipo1 fk
+        cod_equipo2 fk
+        puntos_equipo1
+        puntos_equipo2
+
+        Los equipos se eligen de sendas listas desplegables✅
+
+
+Indicaciones de evaluación y envío
+
+    Gestión de las zonas (2 puntos)
+
+    Gestión de equipos (2,5 puntos)
+
+    Gestión de jugadores (2,5 puntos)
+
+    Gestión de partidos (3 puntos)
+
+En la evaluación de cada ítem se tendrá en cuenta, además de su correcto funcionamiento, su claridad y el uso de comentarios. En caso de añadir un documento explicativo debe ser en formato PDF. No se corregirá nada si no existe programa de prueba.
+
+La tarea se puede realizar creando uno o varios archivos. Todos ellos deben ser comprimidos en un archivo .RAR o .ZIP y el archivo comprimido debe ser enviado a la tarea de la plataforma según la nomenclatura típica:
+
+Apellido1_Apellido2_Nombre_DWES05-TAREAMVC
