@@ -12,8 +12,8 @@ $config->set('modelsFolder', 'models/');
 $config->set('viewsFolder', 'views/');
 
 // Parámetros de conexión a la BD
-$config->set('dbhost', 'localhost');
-$config->set('dbname', 'baloncesto');
+$config->set('dbhost', 'roundhouse.proxy.rlwy.net');
+$config->set('dbname', 'railway');
 $config->set('dbuser', 'root');
-$config->set('dbpass', '');
+$config->set('dbpass', 'GBF4CF62cAHaA14f2d5Ac-3ehc4f64fG');
 ?>
