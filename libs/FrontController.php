@@ -19,7 +19,7 @@ class FrontController {
             if (!empty($_REQUEST['controlador']))
                   $controllerName = $_REQUEST['controlador'] . 'Controller';
             else
-                  $controllerName = "JugadoresController";
+                  $controllerName = "ZonasController";
 
             // Lo mismo sucede con las acciones, si no hay acción, tomamos index como acción por defecto
             if (!empty($_REQUEST['accion']))
